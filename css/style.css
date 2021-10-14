@@ -928,9 +928,10 @@ i{
 		
 		.serv-main{
 			width: 80%;
-			margin-left: 20px;
 			margin-top: 100px;
+			margin-left: 30px;
 		}
+		
 		.serv-main h3{
 			font-size: 20px;
 		}
@@ -1018,6 +1019,9 @@ i{
 		.skill-sec h3{
 			margin-top: 50px;
 		}
+		.serv-main{
+			margin-left: 80px;
+	}
 
 	}
 @media only screen and (max-width: 480px) {
@@ -1051,6 +1055,9 @@ i{
 	.edu-sec h3{
 		margin-top: 100px;
 	}
+	.serv-main{
+			margin-left: 50px;
+	}
 	.skill-img{
 		margin-top: 20px;
 	}
@@ -1058,6 +1065,7 @@ i{
 		width: 200px;
 		font-size: 30px;
 		padding: 5px 0;
+		margin-left: 10px;
 	}
 	.get-devider{
 		margin-top: 20px;
