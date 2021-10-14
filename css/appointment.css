@@ -1,0 +1,238 @@
+*{ margin: 0; 
+	padding: 0;
+	 box-sizing: border-box; 
+	 font-family: 'Poppins', sans-serif;
+}
+
+a{ text-decoration: none; }
+
+a:hover{ text-decoration: none; }
+
+li{list-style: none;}
+
+p{
+	font-size: 0.9rem;
+	line-height: 1.6;
+	font-weight: 400;
+	color: #606060;
+}
+h1, h2, h3, h4, h5, h6{
+	color: #08407b;
+}
+
+.estra-div h2, .servicediv h2{
+	font-size: 0.9rem;
+	margin: 20px 0 15px 0;
+	font-weight: bold;
+	line-height: 1.1;
+	word-spacing: 4px;
+}
+
+i{
+	color: #2fccd0;
+}
+
+/* ==========================Header section ==================== */
+
+.navbar-brand{
+	margin-left: 10px;
+	font-weight: bold;
+	font-size: 35px;
+	color: #f76c6c!important;
+}
+.nav-text{
+	margin-left: 400px;
+}
+.nav-item{
+	font-weight: bold;
+	font-size: 15px;
+}
+.nav-item a:hover{
+	text-decoration: none;
+	color: #f76c6c!important;
+}
+/* .nav-item a::after{
+	content: '';
+	display: block;
+	width: 0%;
+	right: 0%;
+	bottom: 0;
+	height: 3px;
+	background: #ff4a4a!important;
+	transition: width .3s;
+}
+.nav-item:hover a::after,
+.nav-item a.active::after{
+	width: 100%;
+} */
+
+.nav-icon i{
+	text-align: right!important;
+	display: block!important;
+	text-decoration: none!important;
+	color: #535250!important;
+	margin-left: 120px;
+}
+.nav-icon a i:hover{
+	color: #f76c6c!important;
+}
+.nav-icon2 i{
+	text-align: right!important;
+	display: block!important;
+	text-decoration: none!important;
+	color: #535250!important;
+}
+.nav-icon2 a i:hover{
+	color: #f76c6c!important;
+}
+
+/* -- ---------------- header section end---------------------- -->*/
+
+/* --------------------cover section start ------------- */
+
+.cover-section{
+	background-image: linear-gradient(to right, rgba(197,225,229,2), rgba(197,225,229,0.5));
+	width: 100%;
+	height: 150px;
+}
+.cover-text{
+	margin-left: -150px!important;
+	margin-top: 40px;
+}
+.cover-text h2{
+	margin-right: -65px!important;
+}
+.cover-text p{
+	margin-right: 55px!important;
+}
+.span-about{
+	color: #f76c6c!important;
+}
+
+
+/* --------------------cover section end ------------- */
+
+/* =================== appointment section start ========== */
+.appointment-section{
+	background-image: url('../image/cover-img.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+.form-control{
+	margin-bottom: 30px;
+	border-radius: 20px;
+	min-width: 250px;
+	min-height: 60px;
+}
+.form-grp{
+	margin-top: 80px;
+}
+
+.make-appointment{
+	padding: 5px 25px 5px 25px;    
+	background-color: #ff7a7a;
+    color: #fff;
+    border-radius: 20px 20px ;
+}
+.make-appointment:hover{
+	border: 2px solid #ff7a7a;
+	color: #fff;
+}
+
+/* =================== appointment section end ========== */
+
+
+/* <!-- ---------------footer section start ------------ -->*/
+
+.footer-section{
+	/* margin-top: -35px; */
+	background: #f5f5f5;
+}
+.footer-image{
+	margin-top: 30px;
+	text-align: center;
+}
+.footer-icon a i{
+	margin-top: 20px;
+	text-align: center;
+	color: #535250!important;
+	text-decoration: none;
+	display: block;
+}
+.mfs{
+	color: #f76c6c!important;
+}
+.footer-containt{
+	margin-top: 28px;
+	text-align: left;
+	margin-left: -25px;r
+}
+
+.icon-text{
+	margin-top: 10px;
+	font-size: 10pt;
+}
+.containt{
+	margin-top: 40px;
+}
+.con-p1:hover{
+	color: #ff4a4a;
+}
+.con-p2:hover{
+	color: #ff4a4a;
+}
+.con-p3:hover{
+	color: #ff4a4a;
+}
+.con-p4:hover{
+	color: #ff4a4a;
+}
+.news-input{
+	border-radius: 100px 0px 0px 100px!important;
+	min-width: 150px;
+	min-height: 45px;
+	margin-left: -5px;
+}
+.input-group-text{
+	color: #fff;
+	background: #f76c6c;
+	border-radius: 0% 100px 100px 0%;
+	min-width: 120px;
+	min-height: 45px;
+}
+.input-group-text:hover{
+	color: #fff;
+	background: #ff4a4a;
+}
+
+.copyright{
+	margin-top: 20px;
+	font-size: 10pt;
+}
+
+/*<!-- --------------footer section end -------------- --> */
+
+@media only screen and (max-width: 767px) {
+
+    h2{
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .appointment-section{
+    	padding: 100px 0 100px 0;
+    }
+    .department{
+    	margin-top: -260px!important;
+    }
+    .make-appointment{
+    	margin-top: 150px;
+    }
+    .cover-text h2{
+    	margin-right: -20px!important;
+    }
+    .containt{
+    	text-align: center;
+    }
+}
